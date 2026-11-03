@@ -1,0 +1,7 @@
+{
+  "name": "Oyindamola & Busayo Wedding",
+  "description": "The official wedding celebration website for Oyindamola Serah Oshadare and Busayo Timileyin Akomolede (Oyin-B & Timi-B) on November 6, 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
