@@ -7,31 +7,9 @@ import { ZoomIn, Linkedin, Facebook, ExternalLink } from 'lucide-react';
 export const MeetCouple: React.FC = () => {
   const [selectedPhotoIdx, setSelectedPhotoIdx] = useState<number | null>(null);
 
-  // Profile photos: strictly uses bride.jfif for Oyindamola and groom.jpg for Busayo
-  const [brideImg, setBrideImg] = useState<string>('/bride.jfif');
-  const [groomImg, setGroomImg] = useState<string>('/groom.jpg');
-
-  // Ensure bride.jfif and groom.jpg are the active portraits with fallback if needed
-  useEffect(() => {
-    try {
-      localStorage.removeItem('wedding_bride_photo');
-      localStorage.removeItem('wedding_groom_photo');
-    } catch {
-      // ignore
-    }
-
-    const testBride = new Image();
-    testBride.onerror = () => {
-      setBrideImg('/bride.jpg');
-    };
-    testBride.src = '/bride.jfif';
-
-    const testGroom = new Image();
-    testGroom.onerror = () => {
-      setGroomImg('/groom.jpeg');
-    };
-    testGroom.src = '/groom.jpg';
-  }, []);
+  // Profile photos: uses /bride.jpg for Oyindamola and /groom.jpg for Busayo
+  const [brideImg, setBrideImg] = useState<string>(BRIDE_PROFILE.image || '/bride.jpg');
+  const [groomImg, setGroomImg] = useState<string>(GROOM_PROFILE.image || '/groom.jpg');
 
   const couplePhotos: LightboxItem[] = [
     {

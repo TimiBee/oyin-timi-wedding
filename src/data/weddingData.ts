@@ -52,19 +52,19 @@ export const HERO_STRIP_PHOTOS = [
   },
   {
     id: 'hero-6',
-    src: 'https://images.pixieset.com/737932621/cc1d37c0cede5a36dcf140125990e0eb-large.jpg',
+    src: '/prewedding/HAK_6303.jpg',
     caption: 'Endless Affection & Devotion',
     subtitle: 'Celebrating our sacred union in royal harmony',
   },
   {
     id: 'hero-7',
-    src: 'https://images.pixieset.com/737932621/8148110f49dbc04bc1aa1161b9a8d905-large.jpg',
+    src: '/prewedding/HAK_6353.jpg',
     caption: 'Unscripted Laughter & Warmth',
     subtitle: 'The pure, heartwarming smiles that define us',
   },
   {
     id: 'hero-8',
-    src: 'https://images.pixieset.com/737932621/cd33b5af62f8f25e14bf54922ac0c1c1-large.jpg',
+    src: '/prewedding/HAK_6435.jpg',
     caption: 'Sacred Covenant',
     subtitle: 'Two lives, two hearts, intertwined forever',
   },
@@ -75,7 +75,7 @@ export const BRIDE_PROFILE: CoupleProfile = {
   nickname: 'Oyin-B',
   role: 'The Bride',
   title: 'Regulatory & Pharmacovigilance Pharmacist, Bodycare Expert & Women Health Advocate',
-  image: '/bride.jfif',
+  image: '/bride.jpg',
   bio: 'Multi-talented, driven, endlessly kind, a woman of exceptional grace, ambition, and heart. Oyindamola is the kind of person who leaves an impact on everyone she meets. Professionally, she wears many hats with effortless poise, working as a Regulatory & Pharmacovigilance Pharmacist (Madonna University alumnus), Bodycare Expert, and Women Health Advocate, empowering people through wellness as a Senior Partner at Oriflame, and coaching emerging entrepreneurs through her online business guides. Yet, for all her drive and success, her biggest superpower is simply her heart. Oyin is a semi-gentle, sweet fellow who naturally looks out for others, ensuring everyone around her feels cared for, valued, and at peace. To know her is to admire her, but to be loved by her is life’s greatest blessing.',
   quote:
     'From our very first conversation, Timi felt like peace personified. In him, I found not just my greatest love, but my most trusted confidant, my prayer partner, and my home. Loving him is the most natural and rewarding decision of my life.',
@@ -174,7 +174,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Cherished Embrace',
     subtitle: 'Oyindamola & Busayo in intimate harmony',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/cc1d37c0cede5a36dcf140125990e0eb-large.jpg',
+    src: '/prewedding/HAK_6303.jpg',
     aspect: 'portrait',
   },
   {
@@ -182,7 +182,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Radiant Smile',
     subtitle: 'Gentle moments filled with joy and grace',
     category: 'candid',
-    src: 'https://images.pixieset.com/737932621/60518d333bdd505eab72698a8cc64cf5-large.jpg',
+    src: '/prewedding/HAK_6350.jpg',
     aspect: 'portrait',
   },
   {
@@ -190,7 +190,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Bespoke Splendor',
     subtitle: 'Classic tailored silhouettes and regal charm',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/f4f4408ce3440237ba15032212a1d011-large.jpg',
+    src: '/prewedding/HAK_6294.jpg',
     aspect: 'portrait',
   },
   {
@@ -198,7 +198,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Stepping into Tomorrow',
     subtitle: 'Hand-in-hand, walking forward in shared faith',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/8551bb09591d73194ac05571802b45a5-large.jpg',
+    src: '/prewedding/HAK_63941.jpg',
     aspect: 'portrait',
   },
   {
@@ -206,7 +206,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Tender Connection',
     subtitle: 'Love that speaks softly and deeply',
     category: 'candid',
-    src: 'https://images.pixieset.com/737932621/8148110f49dbc04bc1aa1161b9a8d905-large.jpg',
+    src: '/prewedding/HAK_6353.jpg',
     aspect: 'portrait',
   },
   {
@@ -214,7 +214,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Sacred Covenant',
     subtitle: 'Two lives intertwined in holy matrimony',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/cd33b5af62f8f25e14bf54922ac0c1c1-large.jpg',
+    src: '/prewedding/HAK_6435.jpg',
     aspect: 'portrait',
   },
   {
@@ -222,7 +222,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Regal Poise',
     subtitle: 'A quiet portrait of mutual devotion',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/c70049cb996c4907c33fa5881af09e5f-large.jpg',
+    src: '/prewedding/HAK_6284.jpg',
     aspect: 'portrait',
   },
   {
@@ -230,7 +230,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Unscripted Laughter',
     subtitle: 'The warmth that fills every room they enter',
     category: 'candid',
-    src: 'https://images.pixieset.com/737932621/af81d6edf472e67f9d95b46b000bf65b-large.jpg',
+    src: '/prewedding/HAK_6453.jpg',
     aspect: 'portrait',
   },
   {
@@ -238,7 +238,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Eyes of Devotion',
     subtitle: 'In her gaze, a world of peace and beauty',
     category: 'candid',
-    src: 'https://images.pixieset.com/737932621/bf679070a8a92a15819dbf4f1bc75ebc-large.jpg',
+    src: '/prewedding/HAK_6302.jpg',
     aspect: 'portrait',
   },
   {
@@ -246,7 +246,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Soulful Harmony',
     subtitle: 'A love sculpted by grace, patience, and warmth',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/ece7317afecf90ca02e7e4fc9c4ab794-large.jpg',
+    src: '/prewedding/HAK_6357.jpg',
     aspect: 'portrait',
   },
   {
@@ -254,7 +254,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Royal Stride',
     subtitle: 'Standing tall together in unwavering commitment',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/856f118c43c9638aa9ca2289381e2578-large.jpg',
+    src: '/prewedding/HAK_6412.jpg',
     aspect: 'portrait',
   },
   {
@@ -262,7 +262,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Pure Serenity',
     subtitle: 'Finding home in each other’s presence',
     category: 'candid',
-    src: 'https://images.pixieset.com/737932621/67b3a901e6612aba55d02f60eaf88499-large.jpg',
+    src: '/prewedding/HAK_6450.jpg',
     aspect: 'portrait',
   },
   {
@@ -270,7 +270,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Graceful Union',
     subtitle: 'Every chapter written with joy and hope',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/ea8424f1693be90859e531cd398f3b56-large.jpg',
+    src: '/prewedding/HAK_6459.jpg',
     aspect: 'portrait',
   },
   {
@@ -278,7 +278,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Whispered Blessing',
     subtitle: 'Holding tightly to God’s promises',
     category: 'candid',
-    src: 'https://images.pixieset.com/737932621/233ab4ef418c9f77e7ea989015611022-large.jpg',
+    src: '/prewedding/HAK_6473.jpg',
     aspect: 'portrait',
   },
   {
@@ -286,7 +286,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Cinematic Panorama',
     subtitle: 'Wide frame of their beautiful love story',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/0942369933d6ab48c4109f2d8a20ae9a-large.jpg',
+    src: '/prewedding/HAK_6474.jpg',
     aspect: 'landscape',
   },
   {
@@ -294,7 +294,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Joy Unbounded',
     subtitle: 'Celebrating the gift of forever',
     category: 'candid',
-    src: 'https://images.pixieset.com/737932621/574a84593e5035505b98a0763a9d28ff-large.jpg',
+    src: '/prewedding/HAK_6479.jpg',
     aspect: 'portrait',
   },
   {
@@ -302,7 +302,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Together in God’s Grace',
     subtitle: '#OyinTimiLoveBound26',
     category: 'editorial',
-    src: 'https://images.pixieset.com/737932621/77377caa3eaca42ef7c26bfaae55f338-large.jpg',
+    src: '/prewedding/HAK_6492.jpg',
     aspect: 'portrait',
   },
 ];
