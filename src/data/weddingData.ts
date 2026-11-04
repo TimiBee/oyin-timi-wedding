@@ -22,31 +22,31 @@ export const WEDDING_DETAILS: WeddingDetails = {
 export const HERO_STRIP_PHOTOS = [
   {
     id: 'hero-1',
-    src: '/assets/aistudio/image_4bb89863.png',
+    src: '/portraits/image_4bb89863.png',
     caption: 'Tender Embrace in Royal Splendor',
     subtitle: 'Woven in royal indigo and coral beads, hearts beat as one',
   },
   {
     id: 'hero-2',
-    src: '/assets/aistudio/image_cb67432d.png',
+    src: '/portraits/image_cb67432d.png',
     caption: 'Radiant Joy & Eternal Promise',
     subtitle: 'Oyindamola in pure white satin and pearls with her beloved',
   },
   {
     id: 'hero-3',
-    src: '/assets/aistudio/image_dae5ca40.png',
+    src: '/portraits/image_dae5ca40.png',
     caption: 'Adoration & Devotion',
     subtitle: 'Busayo and Oyindamola in regal white ceremony attire',
   },
   {
     id: 'hero-4',
-    src: '/assets/aistudio/image_89b53498.png',
+    src: '/portraits/image_89b53498.png',
     caption: 'Heritage, Poise & Elegance',
     subtitle: 'Hand-in-hand in traditional patterned attire',
   },
   {
     id: 'hero-5',
-    src: '/assets/aistudio/image_8e1215e6.png',
+    src: '/portraits/image_8e1215e6.png',
     caption: 'The Groom — Regal Poise',
     subtitle: 'Busayo Timileyin Akomolede in bespoke textured ivory suit',
   },
@@ -134,7 +134,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Tender Embrace in Royal Splendor',
     subtitle: 'Oyindamola & Busayo adorned in traditional patterned attire and coral beads',
     category: 'culture',
-    src: '/assets/aistudio/image_4bb89863.png',
+    src: '/portraits/image_4bb89863.png',
     aspect: 'portrait',
   },
   {
@@ -142,7 +142,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Radiant Joy & Pure Devotion',
     subtitle: 'Oyindamola in pure white satin and pearls with her beloved Busayo',
     category: 'editorial',
-    src: '/assets/aistudio/image_cb67432d.png',
+    src: '/portraits/image_cb67432d.png',
     aspect: 'portrait',
   },
   {
@@ -150,7 +150,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'A Gaze of Adoration',
     subtitle: 'Shared laughter and deep affection in bespoke ceremony whites',
     category: 'editorial',
-    src: '/assets/aistudio/image_dae5ca40.png',
+    src: '/portraits/image_dae5ca40.png',
     aspect: 'portrait',
   },
   {
@@ -158,7 +158,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'Heritage & Poise',
     subtitle: 'Stepping forward hand-in-hand in custom royal indigo fabric',
     category: 'culture',
-    src: '/assets/aistudio/image_89b53498.png',
+    src: '/portraits/image_89b53498.png',
     aspect: 'portrait',
   },
   {
@@ -166,7 +166,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     title: 'The Groom — Regal Poise',
     subtitle: 'Busayo Timileyin Akomolede in bespoke textured white three-piece suit',
     category: 'editorial',
-    src: '/assets/aistudio/image_8e1215e6.png',
+    src: '/portraits/image_8e1215e6.png',
     aspect: 'portrait',
   },
   {
