@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { GALLERY_PHOTOS, WEDDING_DETAILS } from '../data/weddingData';
+import { GALLERY_PHOTOS } from '../data/weddingData';
 import { GalleryPhoto } from '../types';
 import { OliveBranchDivider } from './BotanicalAccents';
-import { ZoomIn, Grid, LayoutList, ExternalLink } from 'lucide-react';
+import { ZoomIn, Grid, LayoutList } from 'lucide-react';
 import { ImageLightboxModal, LightboxItem } from './ImageLightboxModal';
 
 type CategoryFilter = 'all' | 'editorial' | 'candid' | 'details' | 'culture';
@@ -178,24 +178,11 @@ export const PhotoGallery: React.FC = () => {
           })}
         </div>
 
-        {/* Bottom actions: Swipe hint & External Gallery link */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 sm:mt-12 text-center">
+        {/* Bottom subtle note for mobile users */}
+        <div className="text-center mt-8 sm:mt-10">
           <p className="text-xs text-[#23301D]/60 font-serif italic">
             Swipe left or right in full-screen mode to browse through photos
           </p>
-
-          {WEDDING_DETAILS.fullGalleryUrl && (
-            <a
-              href={WEDDING_DETAILS.fullGalleryUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-[#C5A059]/40 bg-white/80 hover:bg-[#4A0E17] hover:text-[#FDFBF7] hover:border-[#4A0E17] text-xs font-serif uppercase tracking-[0.16em] text-[#4A0E17] transition-all shadow-xs group"
-              title="Open full photo collection on Pixieset"
-            >
-              <span>View Full Pixieset Collection</span>
-              <ExternalLink className="w-3.5 h-3.5 text-[#C5A059] group-hover:text-[#E5C378] transition-colors" />
-            </a>
-          )}
         </div>
       </div>
 

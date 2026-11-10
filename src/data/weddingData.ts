@@ -14,11 +14,10 @@ export const WEDDING_DETAILS: WeddingDetails = {
     'Your presence is our greatest gift, but if you wish to honor us with a gift, a financial contribution towards our new beginning would be warmly appreciated.',
   contactEmail: 'akomoledebusayotimi@gmail.com',
   contactNote: 'For inquiries, special congratulations, or gift coordination',
-  fullGalleryUrl: 'https://promnfilms.pixieset.com/pre-weddingshoot/',
 };
 
-// Official Pre-Wedding Shoot Photographs by PROMN FILMS & Portrait Sessions
-// High-resolution images from Pixieset and bespoke studio portrait sessions
+// Official Pre-Wedding & Portrait Gallery
+// High-resolution portraits and pre-wedding photoshoot collections
 export const HERO_STRIP_PHOTOS = [
   {
     id: 'hero-1',
@@ -126,8 +125,8 @@ export const GROOM_PROFILE: CoupleProfile = {
   ],
 };
 
-// Authentic Pre-Wedding & Portrait Photographs by PROMN FILMS
-// Includes bespoke studio sessions and pixieset collection
+// Authentic Pre-Wedding & Portrait Photographs
+// Studio portraits and pre-wedding photoshoot collections
 export const GALLERY_PHOTOS: GalleryPhoto[] = [
   {
     id: 'user-p1',
