@@ -20,10 +20,22 @@ export const WEDDING_DETAILS: WeddingDetails = {
 // High-resolution portraits and pre-wedding photoshoot collections
 export const HERO_STRIP_PHOTOS = [
   {
+    id: 'hero-trad-1',
+    src: '/prewedding/HAK_6658.jpg',
+    caption: 'Serenity & Sacred Bond',
+    subtitle: 'Resting upon each other in rich Yoruba aso-oke and bespoke agbada',
+  },
+  {
     id: 'hero-1',
     src: '/portraits/image_4bb89863.png',
     caption: 'Tender Embrace in Royal Splendor',
     subtitle: 'Woven in royal indigo and coral beads, hearts beat as one',
+  },
+  {
+    id: 'hero-trad-2',
+    src: '/prewedding/HAK_6678.jpg',
+    caption: 'The Veiled Bride — Pure Elegance',
+    subtitle: 'Oyindamola radiant under traditional blush tulle veil',
   },
   {
     id: 'hero-2',
@@ -36,6 +48,12 @@ export const HERO_STRIP_PHOTOS = [
     src: '/portraits/image_dae5ca40.png',
     caption: 'Adoration & Devotion',
     subtitle: 'Busayo and Oyindamola in regal white ceremony attire',
+  },
+  {
+    id: 'hero-trad-3',
+    src: '/prewedding/HAK_6579.jpg',
+    caption: 'The Groom — Regal Yoruba Stride',
+    subtitle: 'Busayo Timileyin Akomolede holding ceremonial beaded staff',
   },
   {
     id: 'hero-4',
@@ -128,6 +146,46 @@ export const GROOM_PROFILE: CoupleProfile = {
 // Authentic Pre-Wedding & Portrait Photographs
 // Studio portraits and pre-wedding photoshoot collections
 export const GALLERY_PHOTOS: GalleryPhoto[] = [
+  {
+    id: 'trad-veil-1',
+    title: 'The Veiled Bride — Royal Grace',
+    subtitle: 'Oyindamola in blush pink bespoke attire veiled in sheer majesty',
+    category: 'culture',
+    src: '/prewedding/HAK_6678.jpg',
+    aspect: 'portrait',
+  },
+  {
+    id: 'trad-couple-1',
+    title: 'Sacred Rest & Devotion',
+    subtitle: 'Oyindamola gently resting on Busayo in rich wine and emerald traditional wear',
+    category: 'culture',
+    src: '/prewedding/HAK_6658.jpg',
+    aspect: 'portrait',
+  },
+  {
+    id: 'trad-fan-1',
+    title: 'The Radiant Smile of Iyawo Timi-B',
+    subtitle: 'Holding her custom feathered fan with joy and royal elegance',
+    category: 'culture',
+    src: '/prewedding/HAK_6664.jpg',
+    aspect: 'portrait',
+  },
+  {
+    id: 'trad-bride-solo',
+    title: 'Grace in Yoruba Royalty',
+    subtitle: 'Oyindamola showing off her heirloom engagement ring and bespoke gele',
+    category: 'culture',
+    src: '/prewedding/HAK_6610.jpg',
+    aspect: 'portrait',
+  },
+  {
+    id: 'trad-groom-staff',
+    title: 'The Groom — Regal Yoruba Stride',
+    subtitle: 'Busayo Timileyin Akomolede adorned with heavy beaded corals and royal staff',
+    category: 'culture',
+    src: '/prewedding/HAK_6579.jpg',
+    aspect: 'portrait',
+  },
   {
     id: 'user-p1',
     title: 'Tender Embrace in Royal Splendor',
